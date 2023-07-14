@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" type="html" href="form.html">
+	<link rel="stylesheet" type="js" href="controller.js">
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="nav container void-background" >
+	
+		<!-- This "nav-menu" is hidden on mobile -->
+		<!-- Add the modifier "is-active" to display it on mobile -->
+		
+		<div class="nav-left">
+			<a href="http://medium.com/@hassanhelfi/" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-medium"></i>
+				</span>
+			</a>
+			<a href="http://github.com/helfi92" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-github"></i>
+				</span>
+			</a>
+			<a href="https://twitter.com/hassanhelfi" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-twitter"></i>
+				</span>
+			</a>
+			
+		</div>
+
+		<div class="nav-item" id="datetime"></div>
+
+		<div class="nav-right nav-menu">
+			<a class="nav-item" href="#about">About</a>
+			<a class="nav-item" href="form.html" onclick="goToReservation()">Reservation</a>
+			<a class="nav-item" href="#social">Social</a>
+		</div>
+		
+		<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+		<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+		<span class="nav-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</span>
+	</nav>
+
+	<!-- About Me -->
+	<section id="about" class="section section-1">
+		
+	</section>
+
+	<!-- Projects -->
+	<section id="projects" class="section section-2">
+		<div class="container">
+			<div class="has-text-centered">
+				<h3 class="title is-3">Our July Cafe</h3>
+			</div>
+		
+
+			<div class="columns is-multiline is-desktop">
+				<!-- Project 1 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<img src="https://i.pinimg.com/564x/99/51/19/995119a002746fbc318ff527bceba5f0.jpg" alt="Image">
+								</figure>
+							</div>
+							<div>
+								<p>
+									Coffee
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- Project 2 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<img src="https://i.pinimg.com/564x/6a/d0/f9/6ad0f9468ac006e612856325f0ea9ace.jpg" alt="Image">
+								</figure>
+							</div>
+							<div>
+								<p >
+									Non-Coffee
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="columns is-multiline is-desktop">
+			<!-- Project 1 -->
+			<div class="column">
+				<div class="box project-text">
+					<article>
+						<div>
+							<figure class="image project-figure">
+								<img src="https://i.pinimg.com/564x/a8/cd/b9/a8cdb9203ffe4ae7024fff7f0693a7a6.jpg" alt="Image">
+							</figure>
+						</div>
+						<div>
+							<p >
+								Mocktail
+							</p>
+						</div>
+					</article>
+				</div>
+			</div>
+			<!-- Project 2 -->
+			<div class="column">
+				<div class="box project-text">
+					<article>
+						<div>
+							<figure class="image project-figure">
+								<img src="https://i.pinimg.com/564x/e1/b5/b3/e1b5b32a0e068c4483d05f3376ab6fb0.jpg" alt="Image">
+							</figure>
+						</div>
+						<div>
+							<p >
+								Food
+							</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<!-- Social -->
+	<section id="social" class="section section-3">
+		<div class="container">
+			<div class="has-text-centered">
+				<h3 class="title is-3">Let's Socialize</h3>
+			</div>
+		</div>
+		<button class="button is-primary" onclick="showAlert()">Click Me</button>
+	  </div>
+			<div class="social-container columns">
+				<div class="column is-6 has-text-centered">
+					<a target="_blank" href="https://ca.linkedin.com/in/hassan-ali-6132468a"><img class=""
+							src="https://i.pinimg.com/564x/f3/11/60/f31160a633767d91beadb8cb142f1cd8.jpg"></a>
+				</div>
+				<div class="column is-6 has-text-centered">
+					<a target="_blank" href="https://www.facebook.com/Hassan.Helfi"><img class=""
+							src="assets/img/facebook.png"></a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section class="section-4 has-text-centered container" >
+		<a href="http://www.hassanali.me/about" >Kelompok 2</a>
+	</section>
+
+	<!-- Scripts  -->
+	<script src="controller.js"></script>
+</body>
+
+</html>
