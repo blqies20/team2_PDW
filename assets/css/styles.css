@@ -1,0 +1,123 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #063647; 
+}
+
+a {
+  color: #00d1b2;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background-image: url(https://adormusic.s3.us-east-2.amazonaws.com/wp-content/uploads/2020/09/26074258/our-july-coffee.jpg) ;
+	height: 300px;
+}
+
+.section-2 {
+	background-color: #f1f4f5;
+	;
+}
+
+.section-3 {
+	background-color: rgba(7, 59, 79, 0.5);
+}
+
+.section-4 {
+	background-color: #063647;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:200px;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+	;
+	
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
+.section-2 .avatar {
+	background-image: url("https://i.pinimg.com/564x/5c/44/fa/5c44fa87ae136e59ae2e19c977965c25.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+p{
+	color: #063647;
+}
+.section-2 h3{
+	color: #063647;
+}
